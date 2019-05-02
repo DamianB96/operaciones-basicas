@@ -9,15 +9,15 @@ int main(int argc, char *argv[]) {
 			
 			
 		int a, b, c, r1, r2, r3, r4;
+	
+		printf("Para sumar digite un 1, para restar, un 2, para multiplicar, un 3 y para dividir, un 4 \n");
+		scanf("%d", &c);
 		
 		printf("Dame el primer numero ");
 		scanf("%d", &a);
 		
 		printf("Dame el segundo numero ");
 		scanf("%d", &b);
-		
-		printf("Para sumar digite un 1, para restar, un 2, para multiplicar, un 3 y para dividir, un 4 \n");
-		scanf("%d", &c);
 		
 		
 		switch (c){
